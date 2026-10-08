@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "CV Banao",
+    "slug": "cv-banao-mobile",
+    "version": "1.0.0",
+    "scheme": "cvbanao",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cvbanao.app"
+    },
+    "android": {
+      "package": "com.cvbanao.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#7155D9"
+      },
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-secure-store",
+      "expo-document-picker",
+      "expo-router",
+      "expo-splash-screen"
+    ],
+    "extra": {
+      "appVersion": "1.0.0",
+      "router": {},
+      "eas": {
+        "projectId": "9142e7d8-58b1-4ac3-8bbb-a13cc8ee983f"
+      }
+    }
+  }
+}

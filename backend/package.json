@@ -1,0 +1,32 @@
+{
+  "name": "cv-banao-mobile-api",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "node --watch --import tsx src/server.ts",
+    "start": "node --import tsx src/server.ts",
+    "test": "node --import tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "multer": "^2.0.2",
+    "dotenv": "^17.2.0",
+    "tsx": "^4.20.0",
+    "jszip": "^3.10.2",
+    "pdfjs-dist": "^5.7.284",
+    "@napi-rs/canvas": "^0.1.80",
+    "tesseract.js": "^7.0.0",
+    "@tesseract.js-data/eng": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/cors": "^2.8.19",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^24"
+  }
+}

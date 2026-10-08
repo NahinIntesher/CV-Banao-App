@@ -1,0 +1,15 @@
+node_modules/
+.expo/
+dist/
+web-build/
+backend/.env
+backend/.ocr-cache/
+backend/eng.traineddata
+.env
+.env.local
+*.tsbuildinfo
+
+dist-android/
+dist-ios/
+
+dist-final/
